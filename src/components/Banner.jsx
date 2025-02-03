@@ -7,7 +7,7 @@ import "animate.css"; // Importing Animation.css for additional effects
 
 const Banner = () => {
     // Direct download link
-    const googleDriveCVLink = "https://drive.google.com/uc?export=download&id=108AZAgcDkTaSbgEEUremUfC4iwJvckfc";
+    const googleDriveCVLink = "https://drive.google.com/uc?export=download&id=1DHloktlelVZ8pLscmQpGS12CDbHegJ3U";
 
     return (
         <div className="flex flex-col md:flex-row items-center justify-between text-white p-8">
