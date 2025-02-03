@@ -23,7 +23,7 @@ const Education = () => {
               <strong>Institution:</strong> East West University, Dhaka
             </p>
             <p className="text-gray-300 mt-1">
-              <strong>Expected Graduation:</strong> February 2025
+              <strong> Graduation:</strong> February 2025
             </p>
           </div>
         </div>

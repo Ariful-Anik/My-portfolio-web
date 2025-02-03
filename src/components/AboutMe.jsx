@@ -1,8 +1,15 @@
 import React from "react";
+import about_img from "../assets/IMG_6276.jpg";
 
 const AboutMe = () => {
     return (
-        <div className="bg-gradient-to-br md:w-4/6 mx-auto md:my-16 from-black to-gray-900 text-white py-12 px-8 rounded-lg shadow-lg flex justify-center items-center">
+        <div className="bg-gradient-to-br md:w-11/12 mx-auto md:my-16 from-black to-gray-900 text-white py-12 px-8 rounded-lg shadow-lg flex justify-center items-center">
+            
+            <div className="flex-1 p-5">
+                <div>
+                    <img src={about_img} alt="" />
+                </div>
+            </div>
             {/* Content Wrapper */}
             <div className="bg-gray-800 p-8 rounded-md shadow-md w-full max-w-4xl">
                 <h2 className="text-3xl font-bold text-center mb-6">About Me</h2>
