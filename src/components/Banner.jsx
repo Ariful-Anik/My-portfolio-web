@@ -78,7 +78,7 @@ const Banner = () => {
                     <img
                         src={banner_img} // Ensure this is the correct image URL
                         alt="Ariful Anik"
-                        className="w-full md:h-[780px] object-cover"
+                        className="w-full h-[500px] md:h-[780px] object-cover"
                     />
                 </div>
             </motion.div>

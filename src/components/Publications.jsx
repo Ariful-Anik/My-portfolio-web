@@ -1,6 +1,9 @@
 
 import { FaUniversity, FaAward } from "react-icons/fa";
 import { GiFullMotorcycleHelmet } from "react-icons/gi";
+import { RiMentalHealthFill } from "react-icons/ri";
+import { IoIosPaper } from "react-icons/io";
+
 const Publications = () => {
   return (
     <div className="bg-gradient-to-br from-black to-gray-900 text-white py-12 my-10 rounded-lg md:my-28 px-8">
@@ -32,7 +35,7 @@ const Publications = () => {
         {/* Scholarship */}
         <div className="flex items-center space-x-6">
           <div className="text-green-500 text-4xl flex-shrink-0">
-            <FaAward />
+          <RiMentalHealthFill />
           </div>
           <div>
             <h3 className="text-2xl font-bold">Health Care Chatbot</h3>
@@ -51,12 +54,12 @@ const Publications = () => {
         {/* Research publications */}
         <div className="flex items-center space-x-6">
           <div className="text-yellow-500 text-4xl flex-shrink-0">
-            <FaUniversity />
+          <IoIosPaper />
           </div>
           <div>
             <h3 className="text-2xl font-bold">Real-Time PCB Flaw Detection a Vision for More Efficient and Accurate Future</h3>
             <p className="text-gray-300 mt-2">
-              <strong>Institution:</strong> East West University, Dhaka
+              <strong>Institution:</strong> IEEE International Conference
             </p>
             <p className="text-gray-300 mt-1">
               <strong> Paper Link:</strong> <a className="text-xl underline px-4" target="_blank" href="https://ieeexplore.ieee.org/document/10674952">Read it.</a>
@@ -67,15 +70,16 @@ const Publications = () => {
         {/* Scholarship */}
         <div className="flex items-center space-x-6">
           <div className="text-green-500 text-4xl flex-shrink-0">
-            <FaAward />
+          <IoIosPaper />
           </div>
           <div>
             <h3 className="text-2xl font-bold">Enhance Detection of Pancreatic Cancer Using Convolution Neural Network</h3>
-            <p className="text-gray-300 mt-2">
-              Awarded for achieving a CGPA of 3.9 or higher for three consecutive semesters.
+            
+            <p className="text-gray-300 mt-1">
+              <strong>Institution:</strong> Springer International Conference
             </p>
             <p className="text-gray-300 mt-1">
-              <strong>Institution:</strong> East West University
+              <strong> Paper Link:</strong> <a className="text-xl underline px-4" target="_blank" href="">Accepted. Waiting for publication.</a>
             </p>
           </div>
         </div>
