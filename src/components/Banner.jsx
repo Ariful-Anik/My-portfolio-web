@@ -2,6 +2,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 import { motion } from "framer-motion";
+import banner_img from "../assets/IMG_5470.jpg";
 import "animate.css"; // Importing Animation.css for additional effects
 
 const Banner = () => {
@@ -75,7 +76,7 @@ const Banner = () => {
             >
                 <div className="rounded-xl overflow-hidden">
                     <img
-                        src="https://i.ibb.co.com/TRRbfD1/img.png" // Ensure this is the correct image URL
+                        src={banner_img} // Ensure this is the correct image URL
                         alt="Ariful Anik"
                         className="w-full md:h-[780px] object-cover"
                     />
